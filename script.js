@@ -8,7 +8,7 @@ const playerImage = new Image();
 playerImage.src = 'jetpack.png'
 //coin
 const coins = new Image();
-coins.src = 'coins.png'
+coins.src = 'Coins.png'
 //background images
 const bgImage1 = new Image();
 bgImage1.src = 'space.bg.jpeg'
