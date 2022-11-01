@@ -120,7 +120,7 @@ class Coin{
 }
 let coin = new Coin()  
 function regenerateCoins(){
-    let pos = [0,100.150,200,250,300,350,400,450,500,550,600,650,700,750,800,850,900]
+    let pos = [50,100.150,200,250,300,350,400,450,500,550,600,650,700,750,800,850,900]
     let random = pos[Math.floor(Math.random() * pos.length)];
     for(let i = 0; i < numberOfCoins; i++){
         allCoins.push(new Coin())
